@@ -1,0 +1,1 @@
+cmd.exe /C C:\Python27\python.exe "C:\Users\STAN97\Documents\gsutil\gsutil.py" %*"

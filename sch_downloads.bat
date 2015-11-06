@@ -20,6 +20,7 @@
 ::)
 ::echo Test
 if not exist "data_transfer" mkdir data_transfer
-python -c "import daily_download; daily_download.download_data_transfer(100)"
+::python -c "import daily_download; daily_download.download_data_transfer(100)"
+python -c "import daily_download; daily_download.download_page_data()"
 ::node daily_upload.js
 pause;
